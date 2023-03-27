@@ -1,0 +1,44 @@
+@media (min-width:756px) and (max-width:992px) {
+    #header-bottom {
+        padding: 35px 0;
+
+        #header-right {
+            nav {
+                display: flex;
+                justify-content: flex-end;
+                gap: 35px !important;
+
+            }
+
+            a {
+                font-size: 12px;
+
+            }
+        }
+    }
+}
+
+@media (max-width:756px) {
+    #header-right {
+        
+
+       nav{
+        display: none !important;
+       }
+       .mobil_menu{
+        display: block !important;
+        div{
+            display: flex;
+            justify-content: flex-end;
+            i{
+                display: flex;
+                justify-content: flex-end;
+            }
+        }
+       }
+
+    }
+}
+
+
+
